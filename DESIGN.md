@@ -15,21 +15,22 @@
 
 ## 3. Visual direction
 
-- **Concept:** ویرایشگاه مد — تایپوگرافی بزرگ، فضای سفید، گرید نامتقارن.
-- **Keywords:** کرم، زغالی، هل، بافت پارچه‌ای، ادیتوریل.
-- **Mood:** لوکس دسترس‌پذیر (accessible luxury).
+- **Concept:** ویرایشگاه مد — تایپوگرافی بزرگ، فضای تیره گرم، گرید نامتقارن.
+- **Keywords:** زغالی، کرم، شرابی، طلایی muted، بافت پارچه‌ای، ادیتوریل.
+- **Mood:** لوکس دسترس‌پذیر شبانه (accessible luxury, dark).
 
 ## 4. Color system
 
 | Token | Role |
 | --- | --- |
-| Background | کرم گرم روشن |
-| Foreground | زغالی عمیق |
-| Primary | شرابی/بورگوندی ملایم |
+| Background | زغالی گرم عمیق |
+| Foreground | کرم روشن |
+| Primary | شرابی/بورگوندی روشن‌تر برای کنتراست روی دارک |
 | Accent | هل/طلایی muted |
 | Muted | خاکستری گرم برای متن ثانویه |
+| Card / Border | سطوح کمی روشن‌تر از پس‌زمینه با حاشیه ملایم |
 
-Mapped in `app/globals.css`.
+تم پیش‌فرض سایت **دارک** است (`color-scheme: dark` و کلاس `dark` روی `html`). Mapped in `app/globals.css`.
 
 ## 5. Typography
 

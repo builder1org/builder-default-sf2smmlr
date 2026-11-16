@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fa" dir="rtl" className={vazirmatn.variable}>
+    <html lang="fa" dir="rtl" className={`${vazirmatn.variable} dark`}>
       <body className="font-sans min-h-dvh flex flex-col">
         <SiteHeader />
         <div className="flex-1">{children}</div>

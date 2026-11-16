@@ -9,7 +9,7 @@ export function HeroSection() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 py-16 md:py-24 lg:py-28">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-8 items-center">
           <div className="lg:col-span-6 order-2 lg:order-1">
-            <p className="text-xs tracking-[0.25em] uppercase text-accent-foreground/80 mb-4">
+            <p className="text-xs tracking-[0.25em] uppercase text-accent mb-4">
               فصل جدید
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.15] text-balance">

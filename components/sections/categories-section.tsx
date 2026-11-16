@@ -6,28 +6,28 @@ const categories = [
     title: "کت و پالتو",
     hint: "لایه‌بندی زمستانه",
     span: "md:col-span-2 md:row-span-2",
-    tone: "from-[oklch(0.88_0.04_25)] to-[oklch(0.75_0.08_15)]",
+    tone: "from-[oklch(0.32_0.05_25)] to-[oklch(0.22_0.08_15)]",
   },
   {
     id: "پیراهن",
     title: "پیراهن و بلوز",
     hint: "برش تمیز",
     span: "",
-    tone: "from-[oklch(0.92_0.02_85)] to-[oklch(0.85_0.03_70)]",
+    tone: "from-[oklch(0.3_0.03_85)] to-[oklch(0.22_0.03_70)]",
   },
   {
     id: "شلوار",
     title: "شلوار و دامن",
     hint: "فرم مدرن",
     span: "",
-    tone: "from-[oklch(0.9_0.03_50)] to-[oklch(0.82_0.05_40)]",
+    tone: "from-[oklch(0.3_0.04_50)] to-[oklch(0.22_0.05_40)]",
   },
   {
     id: "اکسسوری",
     title: "اکسسوری",
     hint: "جزئیات مهم‌اند",
     span: "md:col-span-2",
-    tone: "from-[oklch(0.86_0.06_75)] to-[oklch(0.78_0.08_60)]",
+    tone: "from-[oklch(0.32_0.06_75)] to-[oklch(0.24_0.08_60)]",
   },
 ] as const;
 
